@@ -11,5 +11,19 @@
     <?php
     echo"Julia Brunetti, Julia Lopes, Pedro Henrique, Kauê Silva";
     ?>
+    <?php
+    //variaveis da conexao do banco de dados
+    $servidor= "localhost";
+    $usuario= "usuariodb";
+    $senha="senhadb";
+    $nomedb="nomedobancodedados"; // nome do banco de dados que sera usado
+    // cria a conexao com o banco de dados
+    $conn= new mysqli ($servidor, $usuario, $senha, $nomedb)
+    // checa a conexao
+    if ($conn->connect_error) {
+        die ("conexao falhou:".$conn->connect_error);
+    }
+    echo"conectado ao banco de dados"."<br>";
+    ?>
 </body>
 </html>
