@@ -18,7 +18,7 @@
     $senha="senhadb";
     $nomedb="nomedobancodedados"; // nome do banco de dados que sera usado
     // cria a conexao com o banco de dados
-    $conn= new mysqli ($servidor, $usuario, $senha, $nomedb)
+    $conn= new mysqli ($servidor, $usuario, $senha, $nomedb);
     // checa a conexao
     if ($conn->connect_error) {
         die ("conexao falhou:".$conn->connect_error);
