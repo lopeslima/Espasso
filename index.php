@@ -24,6 +24,18 @@
         die ("conexao falhou:".$conn->connect_error);
     }
     echo"conectado ao banco de dados"."<br>";
-    ?>
+    $sql = "SELECT nome, sobrenome, telefone FROM Agenda";
+    $resultado = $conn->query($sql);
+    
+    if ($resultado->num_rows > 0) {
+        while ($linha = $resultado->fetch_assoc()) {
+            echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["telefone"] . "<br>";
+        }
+    } else {
+        echo "Nenhum registro encontrado.";
+    }
+    
+    $conn->close();
+   ?>
 </body>
 </html>
