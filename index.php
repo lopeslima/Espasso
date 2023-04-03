@@ -37,5 +37,6 @@
     
     $conn->close();
    ?>
+   <a href="agenda.php">Inserir novo contato</a>
 </body>
 </html>
