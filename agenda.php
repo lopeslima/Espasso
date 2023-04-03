@@ -18,6 +18,6 @@
   <input type="text" name="telefone"><br>
   <input type="submit" value="Gravar">
 </form>
-    
+<a href="index.php">Ver Dados</a>
 </body>
 </html>
