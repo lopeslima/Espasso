@@ -34,7 +34,7 @@ include "conexao.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Coleta os dados do formulário
   $nome = $_POST["nome"];
-  $sobrenome = $_POST["sobrenome"];
+  $sobrenome = $_POST["sobrenome"]; 
   $telefone = $_POST["telefone"];
 
   // Insere os dados no banco de dados

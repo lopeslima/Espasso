@@ -9,7 +9,7 @@
 <body>
     <h1>lopez</h1>
     <?php
-    echo"Julia Brunetti, Julia Lopes, Pedro Henrique, Kauê Silva";
+    echo"Julia Gomes, Julia Brunetti, Julia Lopes, Pedro Henrique, Melissa Lima";
     ?>
     <?php
     //variaveis da conexao do banco de dados
