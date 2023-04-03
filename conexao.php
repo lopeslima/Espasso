@@ -10,4 +10,3 @@
     if ($conn->connect_error) {
         die ("conexao falhou:".$conn->connect_error);
        ?>
-        
