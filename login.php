@@ -6,7 +6,7 @@ include " conexao.php ";
 sessão_inicio();
 
 // Verifica se o formulário de login foi submetido
-if ( $ _SERVER [" REQUEST_METHOD "] == " POST ") {
+if ( $SERVER ["REQUEST_METHOD"] == "POST") {
     // Obtém o nome de usuário e senha do formulário
     $ nome de usuário = mysqli_real_escape_string( $ conn , $ _POST [" nome de usuário "]);
     $ senha = mysqli_real_escape_string( $ conn , $ _POST [" senha "]);
