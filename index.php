@@ -24,7 +24,7 @@
         die ("conexao falhou:".$conn->connect_error);
     }
     echo"conectado ao banco de dados"."<br>";
-    $sql = "SELECT nome, sobrenome, telefone FROM Agenda";
+    $sql = "SELECT nome, sobrenome, telefone FROM agenda";
     $resultado = $conn->query($sql);
     
     if ($resultado->num_rows > 0) {
