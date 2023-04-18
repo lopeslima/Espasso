@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body> 
-    <h1>Adicionar Contato</h1>
+    <h1>Cadastro</h1>
       <!-- Formulário HTML -->
 <form action="" method="post">
   <label>Nome: </label><br>

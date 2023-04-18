@@ -7,7 +7,7 @@
     <title>chocolate</title>
 </head>
 <body>
-    <h1>lopez</h1>
+    <h1>Lista - Agenda</h1>
     <?php
     echo"Julia Gomes, Julia Brunetti, Julia Lopes, Pedro Henrique, Melissa Lima"."<br>";
     ?>
